@@ -1,0 +1,40 @@
+.nav {
+    background-color: #333333;
+    display: flex;
+    margin: 0px auto;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.nav-links {
+    width: 12000px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 15px;
+    list-style: none;
+}
+
+.btn {
+    background-color: #17a2b8;
+    box-shadow: 5px 5px black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.active {
+    font-family: none;
+}

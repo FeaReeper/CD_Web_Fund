@@ -1,0 +1,282 @@
+* {                         /* This adjusted the margin and padding for the page based on the browser. It zeros the margin adn padding so defaults dont affect each box*/
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: #333333;
+    padding: 10px;
+}
+
+.nav {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin: 15px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: #17a2b8;   
+    box-shadow: 5px 5px black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a.nav-list {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: none;
+    color: white;
+}
+
+.container {                   
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    column-gap: 250px;
+}
+
+#left-container {
+    flex: 2;
+}
+
+.image {
+    background-color: #17a2b8;
+    height: 80px;
+    padding: 20px;
+}
+
+.personal {
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.user {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 150px;
+    height: 175px;    
+}
+
+#name {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.location {
+    display: flex;
+    padding: 10px;
+}
+
+.map-marker {
+    width: 20px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skills {
+    padding: 10px;
+}
+
+.settings {
+    display: flex;  
+    padding: 10px;
+}
+
+.gear {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.edit {
+    color: #2b78e4;
+}
+
+.education {
+    height: auto;
+    margin-top: 20px;
+}
+
+h2 {
+    display: flex;
+    background-color: #333333;
+    padding: 5px 5px 5px 15px;
+    color: white;
+}
+
+.schools {
+    border-left: 1px black solid;       
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    height: auto;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.coding-dojo {
+    margin: 10px 0px 5px 15px;
+    font-size: 20px;
+}
+
+.school-date {
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+.black-belt {
+    margin: 5px 0px 10px 15px;
+}
+
+#right-container {
+    flex: 1;
+}
+
+.connections-title {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    padding: 5px 5px 5px 15px;
+    color: white;
+}
+
+.request-num {
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 5px 10px 5px 0px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: black;
+    width: 18px;
+}
+
+.connect-title {
+    font-weight: bold;
+}
+
+.request {
+    padding: 10px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+}
+
+.request-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-name {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.request-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-name {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.connections-pics{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.connect-names {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.connections-accept, .connections-deny {
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.your-connections {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    padding: 5px 5px 5px 15px;
+    color: white;
+}
+
+.connect-num {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 5px 10px 5px 0px;
+
+}
+
+.connect-1 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.more {
+    padding: 10px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+
+}
+
+.view-more {
+    font-weight: bold;
+    color: #2b78e4;
+}
+

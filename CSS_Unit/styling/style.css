@@ -1,0 +1,19 @@
+h1 {
+    color: white;
+    background-color: black;
+    text-indent: 20px;
+    font-family: monospace;
+}
+span {
+    color: aqua;
+}
+h2 {
+    text-align: center;
+    background-color: #663399;
+    color: white;
+}
+h3 {
+    text-align: right;
+    background-color: #9fc5f8;
+    text-decoration: underline;
+}
